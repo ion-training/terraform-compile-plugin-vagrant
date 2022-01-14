@@ -1,5 +1,5 @@
 # terraform-compile-plugin-vagrant
-build a provider plugin with go in vagrant
+Build a provider plugin with go in vagrant
 
 Compile a module for terraform that queries AWS APIs to return your public IP address.
 
