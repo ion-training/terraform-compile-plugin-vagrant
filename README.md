@@ -135,6 +135,17 @@ terraform init
 terraform apply -auto-approve
 ```
 
+Use terraform output to view public IP
+```
+terraform output
+```
+
+# Destroy the LAB
+On the host running vagrant box in directory terraform-compile-plugin-vagrant
+```
+vagrant destroy -f
+```
+
 # Sample output
 ```
 terraform apply -auto-approve
